@@ -4,4 +4,4 @@
 
 
 # no jupyter notebook config, checkpoints
-.ipynb_checkpoints
+#.ipynb_checkpoints
