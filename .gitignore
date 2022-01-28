@@ -1,0 +1,7 @@
+###################
+# GIT IGNORE FILE #
+###################
+
+
+# no jupyter notebook config, checkpoints
+.ipynb_checkpoints
