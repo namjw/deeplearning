@@ -5,4 +5,6 @@
 
 # no jupyter notebook config, checkpoints
 .ipynb_checkpoints
+
 *.zip
+data_zip
