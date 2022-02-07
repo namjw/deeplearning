@@ -9,3 +9,5 @@
 *.zip
 data_zip
 data
+*.csv
+*.jpg
