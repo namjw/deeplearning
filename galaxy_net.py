@@ -1,15 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[8]:
-
 
 import numpy as np
 import matplotlib.pyplot as plt
-
-
-# In[9]:
-
 
 import torch
 import torch.nn as nn
@@ -17,29 +8,10 @@ import torch.nn.functional as F
 import torchvision
 import torchvision.transforms as T
 
+# device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+# print('device will be used as ', device)
 
-# In[10]:
-
-
-# from tqdm import tqdm
-
-
-# In[11]:
-
-
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-print('device will be used as ', device)
-
-
-# In[13]:
-
-
-transform = T.Compose( [ T.ToTensor(), T.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)) ] )
-
-
-# In[16]:
-
-
+# conv size has been hard coded
 i1 = 32
 i2 = 64
 i3 = 128
@@ -105,26 +77,6 @@ class simplegalaxy(nn.Module):
         return x
 
 
-# In[17]:
-
-
-# hyper-param
-# num_epochs = 10
-# batch_size = 20
-# learning_rate = 10**(-3)
-
-
-# In[18]:
-
-
-# train_loader = 
-# test_loader = 
-# print(train_set.data.shape)
-# print(test_set.data.shape)
-
-
-# In[ ]:
-
-
-
+    
+    
 
